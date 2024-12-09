@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Ivosin.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="topnav">
+        <a href="index.html" style="font-family: sans-serif">
+          <h3>About Me</h3>
+        </a>
+        <a
+          class="active"
+          href="contact.html"
+          style="color: whitesmoke; font-family: sans-serif"
+        >
+          <h3>Contact</h3>
+        </a>
+        <a
+          href="registration.html"
+          style="color: whitesmoke; font-family: sans-serif"
+        >
+          <h3>Registration</h3>
+        </a>
+        <a
+          href="login.html"
+          style="
+            color: whitesmoke;
+            float: right;
+            margin-right: 1%;
+            font-family: sans-serif;
+          "
+        >
+          <h3>Login</h3>
+        </a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="header">
+        <h2>Contact Me</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="form-control">
+          <label for="fname">Full Name: </label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            required
+            minlength="3"
+            autofocus
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" size="30" required />
+        </div>
+        <div>
+          <textarea
+            name="message"
+            id="message"
+            cols="50"
+            rows="20"
+            placeholder="Drop me a short message...(Optional)"
+          ></textarea>
+        </div>
+        <br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div>
+      © 2022 | Made for
+      <a
+        href="https://www.facebook.com/kemi.ajiboye.9"
+        target="_blank"
+        style="text-decoration: none"
+        ><b>TEMI</b></a
+      >
+      | Made with ❤️ by
+      <a
+        href="https://www.facebook.com/ivosin.show"
+        style="text-decoration: none"
+        ><b>Ivosin</b></a
+      >
+      | Inspired by
+      <a
+        href="https://training.zuri.team"
+        target="_blank"
+        style="text-decoration: none"
+        ><b>Zuri</b></a
+      >
+      &
+      <a href="https://ingressive.org" style="text-decoration: none"
+        ><b>I4G</b></a
+      >
+    </div>
+  </footer>
+</html>
