@@ -1,0 +1,265 @@
+body {
+  background-color: #9b59b6;
+  font-family: "Open Sans", sans-serif, Helvetica, Arial;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.topnav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(48, 46, 51);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  opacity: 1;
+  background-color: purple;
+  /*   color: yellow; */
+}
+
+.topnav a.active {
+  border-radius: 5px;
+  color: white;
+  border: solid 2px yellow;
+  background-color: purple;
+}
+
+.topnav a.active:hover {
+  opacity: 1;
+  background-color: #bc70a4;
+  color: yellow;
+}
+
+main {
+  border: solid 10px purple;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px #bfd641;
+  padding-left: 2%;
+  padding-bottom: 50px;
+  padding-right: 2%;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+}
+
+main h1 {
+  text-shadow: 10px 10px 10px blueviolet;
+  color: whitesmoke;
+}
+.me {
+  text-shadow: 10px 10px 10px rgb(26, 1, 26);
+  color: whitesmoke;
+}
+
+.me:hover {
+  opacity: 1;
+  color: yellow;
+  /* text-shadow: whitesmoke; */
+  /*   zoom:30px; */
+}
+
+main h3 {
+  color: whitesmoke;
+}
+
+.content div {
+  line-height: 2;
+  text-align: justify;
+  font-size: large;
+  color: yellow;
+}
+
+.content a {
+  color: whitesmoke;
+}
+
+.content a:hover {
+  color: rgb(48, 46, 51);
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border: solid 10px rgb(48, 46, 51);
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px 2px purple;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+  /*   clear: right; */
+  /*   display: inline-block; */
+}
+
+textarea {
+  width: auto;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  color: purple;
+  resize: none;
+}
+
+.container {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+.header h2 {
+  margin: 0;
+}
+
+#form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: whitesmoke;
+}
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.form button {
+  background-color: #8e44ed;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+  font-family: inherit;
+  width: 100%;
+  margin: 5px;
+}
+
+.form button:hover {
+  opacity: 1;
+  background-color: purple;
+}
+
+#submit {
+  background-color: #8e44ed;
+  padding: 20px;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 10px;
+  font-family: inherit;
+  margin: 5px;
+}
+
+#submit:hover {
+  opacity: 1;
+  background-color: purple;
+}
+
+.form submit {
+  background-color: #8e44ed;
+  border: 2px solid yellow;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  font-size: 10px;
+  font-family: inherit;
+  width: 100%;
+  margin: 5px;
+}
+
+.form submit:hover {
+  opacity: 1;
+  background-color: purple;
+}
+
+#contact {
+  border: solid;
+  box-shadow: 10px 10px 10px;
+  border-radius: 7px;
+  color: purple;
+  width: auto;
+  height: 50px;
+  background-color: yellow;
+  font-size: xx-large;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#contact:hover {
+  opacity: 1;
+  background-color: purple;
+  color: yellow;
+  /*   zoom:30px; */
+}
+
+table tr {
+  vertical-align: top;
+}
+
+table a:hover {
+  opacity: 1;
+  color: yellow;
+}
+
+table td {
+  padding-left: 20px;
+}
+
+footer {
+  opacity: 1;
+  color: yellow;
+  background-color: rgb(48, 46, 51);
+  text-align: center;
+  padding: 10px;
+  /*   text-decoration: none; */
+  font-size: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer a {
+  text-shadow: 10px 10px 10px purple;
+  color: whitesmoke;
+}
+
+footer a:hover {
+  opacity: 1;
+  color: #bea9df;
+  /*   background-color: yellow; */
+  text-shadow: 10px 10px 10px yellow;
+}
